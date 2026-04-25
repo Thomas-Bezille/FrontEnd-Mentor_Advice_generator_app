@@ -1,11 +1,11 @@
-# FrontEnd-Mentor: Advice Genaratoe App
+# FrontEnd-Mentor: Advice Genarator App
 
-> Advice Genaratoe App - Challenge Frontend Mentor. Composant de génération de conseils aléatoires réalisé avec HTML5 CSS3 et JS.
+> Advice Genarator App - Challenge Frontend Mentor. Composant de génération de conseils aléatoires réalisé avec HTML5 CSS3 et JS.
 
 ![Aperçu du projet](./docs/desktop.png)
 ![Aperçu du projet](./docs/mobile.png)
 
-**🔗 [Demo en ligne]()**
+**🔗 [Demo en ligne](https://front-end-mentor-advice-generator-a.vercel.app/)**
 
 ---
 
