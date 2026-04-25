@@ -1,54 +1,39 @@
-# [Nom du projet]
+# FrontEnd-Mentor: Advice Genaratoe App
 
-> [Phrase d'accroche en une ligne : ce que fait le projet et pourquoi.]
+> Advice Genaratoe App - Challenge Frontend Mentor. Composant de génération de conseils aléatoires réalisé avec HTML5 CSS3 et JS.
 
-![Aperçu du projet](./screenshot.png)
+![Aperçu du projet](./docs/desktop.png)
+![Aperçu du projet](./docs/mobile.png)
 
-**🔗 [Demo en ligne](https://exemple.com)**
+**🔗 [Demo en ligne]()**
 
 ---
 
 ## 🎯 Objectif
 
-[2-3 phrases pour expliquer le contexte. S'il s'agit d'un exercice, précise ce que tu as voulu pratiquer. S'il s'agit d'un clone, indique la source d'inspiration. Reste honnête et précis.]
+Cette exercice permet de consolider les bases de HTML, CSS et JavaScript en utilisant des appels auprès d'une API (https://api.adviceslip.com/)
 
 **Ce que j'ai appris :**
-- [Concept ou compétence n°1]
-- [Concept ou compétence n°2]
-- [Concept ou compétence n°3]
+
+- Les layouts adaptatif avec Flexbox
+- L'approche mobile-first
+- La dynamisation avec JavaScript
+- Les appels API
+- La gestion des cas d'erreurs
 
 ---
 
 ## 🛠️ Stack
 
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
-
----
-
-## 🚀 Lancer le projet
-
-```bash
-# Cloner le dépôt
-git clone https://github.com/username/nom-du-projet.git
-cd nom-du-projet
-
-# Installer les dépendances
-npm install
-
-# Lancer en développement
-npm run dev
-```
-
-Le projet tourne sur [http://localhost:3000](http://localhost:3000).
+![HTML](https://img.shields.io/badge/HTML5-E34C26?logo=html5&logoColor=white)
+![CSS](https://img.shields.io/badge/CSS3-1572B6?logo=css&logoColor=white)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)](https://javascript.info)
 
 ---
 
 ## 👤 Contact
 
-**[Ton Prénom Nom]** — Développeur web à Nantes
+**Thomas Bezille** — Développeur web à Nantes
 
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://ton-portfolio.com)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://linkedin.com/in/ton-profil)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/ton-username)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/thomas-bezille/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat&logo=github&logoColor=white)](https://github.com/Thomas-Bezille/)

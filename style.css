@@ -1,0 +1,110 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
+:root {
+  --primary-color: hsl(193, 38%, 86%);
+  --accent-color: hsl(150, 100%, 66%);
+  --light: hsl(217, 19%, 38%);
+  --medium: hsl(217, 19%, 24%);
+  --dark: hsl(218, 23%, 16%);
+}
+
+*,
+::before,
+::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Manrope", sans-serif;
+  min-height: 100vh;
+  background: var(--dark);
+}
+
+.container {
+  background: var(--medium);
+  width: 90%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 1rem;
+  padding: 2.5rem;
+}
+
+.container h1 {
+  font-weight: 800;
+  color: var(--accent-color);
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.25rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.container p {
+  font-size: 28px;
+  color: var(--primary-color);
+  font-weight: 800;
+  text-align: center;
+}
+
+.container .separate {
+  height: 1rem;
+  background-image: url("./docs/images/pattern-divider-mobile.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin: 1.5rem 0 -2.5rem 0;
+}
+
+.container .dice {
+  background: var(--accent-color);
+  display: inline-block;
+  padding: 2.25rem;
+  position: relative;
+  border-radius: 50%;
+  cursor: pointer;
+  bottom: calc(-2.5rem - (2rem + 1rem / 2));
+  left: 50%;
+  transform: translateX(-50%);
+  transition: box-shadow 0.2s ease-in-out;
+}
+
+.container .dice:hover {
+  box-shadow: 0 0 3rem 0.25rem var(--accent-color);
+}
+
+.container .dice img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1.75rem;
+}
+
+#error {
+  display: block;
+  color: crimson;
+  font-size: 28px;
+  font-weight: 800;
+  text-align: center;
+}
+
+.attribution {
+  color: var(--primary-color);
+  position: absolute;
+  width: 100%;
+  bottom: 1rem;
+}
+
+@media screen and (min-width: 375px) {
+  .container {
+    max-width: 500px;
+  }
+
+  .container .separate {
+    background-image: url("./docs/images/pattern-divider-desktop.svg");
+  }
+}
