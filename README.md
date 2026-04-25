@@ -2,7 +2,7 @@
 
 > [Phrase d'accroche en une ligne : ce que fait le projet et pourquoi.]
 
-![Aperçu du projet](./screenshot.png)
+![Aperçu du projet](./docs/preview.jpg)
 
 **🔗 [Demo en ligne](https://exemple.com)**
 
@@ -13,6 +13,7 @@
 [2-3 phrases pour expliquer le contexte. S'il s'agit d'un exercice, précise ce que tu as voulu pratiquer. S'il s'agit d'un clone, indique la source d'inspiration. Reste honnête et précis.]
 
 **Ce que j'ai appris :**
+
 - [Concept ou compétence n°1]
 - [Concept ou compétence n°2]
 - [Concept ou compétence n°3]
